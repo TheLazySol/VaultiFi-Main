@@ -1,0 +1,11 @@
+{
+    "name": "VaultiFi",
+    "symbol": "VLTFI",
+    "description": "Token that is utilized for opening and creating new VaultiFi Vaults.",
+    "image": "TEST.jpg",
+    "extensions": {
+        "website": "https://www.vaultifi.org",
+        "twitter": "https://twitter.com/VaultiFi",
+        "telegram": "https://t.me/vaultifi"
+      }
+}
