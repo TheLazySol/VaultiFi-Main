@@ -1,0 +1,11 @@
+{
+    "name": "VaultiFi",
+    "symbol": "VLTFI",
+    "description": "A Utility Token for Creating and Editing VaultiFi Customizable Vaults.",
+    "image": "https://bafkreibenikymgisok4et5rbmca4clabueebi5plfzjd4w2n5wiq76pdwu.ipfs.nftstorage.link/",
+    "extensions": {
+        "website": "https://www.vaultifi.org",
+        "twitter": "https://twitter.com/VaultiFi",
+        "discord": "https://discord.gg/d5MdEZjXqx"
+      }
+}
