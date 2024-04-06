@@ -17,17 +17,17 @@ const INITIALIZE = true;
 
 async function main(){
     console.log("Deploying Token Metadata onChain.");
-    const myKeypair = loadWalletKey("[DEV WALLET KEYPAIR]"); //Dev Wallet Keypair goes here
-    const mint = new web3.PublicKey("VLTn6KRpF6rniP9TbMRwztgXBiomW2QUtuW9LL2h5qR");
+    const myKeypair = loadWalletKey("[DEV WALLET]"); //Dev Wallet Keypair goes here
+    const mint = new web3.PublicKey("VFiWeB7RY719RrJbuHNYyEu7yhZ6pvcYc7Nv2TDU7H7");
 
-    const umi = createUmi("https://api.mainnet-beta.solana.com");
+    const umi = createUmi("https://api.devnet.solana.com");
     const signer = createSignerFromKeypair(umi, fromWeb3JsKeypair(myKeypair))
     umi.use(signerIdentity(signer, true))
 
     const ourMetadata = { // Matching Metadata
         name: "VaultiFi", 
-        symbol: "VLTFI",
-        uri: "https://bafkreibkm72ro4esmat73fkiojz6d4g3eixh7drqtveyczn3seerniyjcm.ipfs.nftstorage.link/",
+        symbol: "VFI",
+        uri: "https://ipfs.moralis.io:2053/ipfs/QmNQKgrHNf1fYFMqmecWGEfYNudKeN3g4NN8ttd2TchDLc/src/uri.json",
     }
     const onChainData = {
         ...ourMetadata,
