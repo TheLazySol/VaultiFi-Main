@@ -1,0 +1,11 @@
+{
+    "name": "VaultiFi",
+    "symbol": "VFI",
+    "description": "A utility and governance token used to create and manage Vaults on VaultiFi.",
+    "image": "https://ipfs.moralis.io:2053/ipfs/Qmc2nxmhwx3U6FMSBK5ZNG2JT4Ao5ozu61vJ2diy3iwjdy/VaultiFi_Main_Logo_RM.png",
+    "extensions": {
+        "website": "https://www.vaultifi.org",
+        "twitter": "https://twitter.com/VaultiFi",
+        "discord": "https://discord.gg/5asAuY2sR8"
+      }
+}
